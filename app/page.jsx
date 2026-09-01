@@ -102,22 +102,22 @@ export default function Home() {
                       <div className="col-md-4 d-flex ftco-animate">
                         <div className="icon"><span className="icon-phone"></span></div>
                         <div className="text">
-                        <h3>24 33838</h3>
-										<p>A small river named Duden flows by their place and supplies.</p>
+                        <h3><a href="tel:+96879292707">+968 7929 2707</a></h3>
+										<p>Call to ask about today's roast or to book the meeting room.</p>
                         </div>
                       </div>
                       <div className="col-md-4 d-flex ftco-animate">
                         <div className="icon"><span className="icon-my_location"></span></div>
                         <div className="text">
                         <h3>Seeb, Muscat</h3>
-										<p>	203 Fake St. Hail South</p>
+										<p><a href="https://maps.app.goo.gl/Pw3iCo8o9tR5AaVE9" target="_blank" rel="noopener noreferrer">November Square, Al Hail</a></p>
                         </div>
                       </div>
                       <div className="col-md-4 d-flex ftco-animate">
                         <div className="icon"><span className="icon-clock-o"></span></div>
                         <div className="text">
-                        <h3>Open Sunday-Friday</h3>
-										<p>8:00am - 9:00pm</p>
+                        <h3>Open Daily</h3>
+										<p>7:00am - 12:00am (8:00am Fri &amp; Sat)</p>
                         </div>
                       </div>
                     </div>
@@ -173,7 +173,7 @@ export default function Home() {
                     <h2 className="mb-4">Our Story</h2>
                   </div>
                   <div>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+                    <p>Optimum Cafe &amp; Roastery is a specialty coffee house and in-house roastery tucked into November Square in Al Hail, Seeb. Rated 4.4★ from 149 Google reviews, it's known for a quiet, tidy space with its own meeting room — a favourite for both a quick espresso and a longer sit-down. Dine in or grab a takeaway, seven days a week.</p>
                   </div>
                 </div>
               </div>
@@ -188,8 +188,8 @@ export default function Home() {
                         <span className="flaticon-choices"></span>
                       </div>
                       <div className="media-body">
-                        <h3 className="heading">Easy to Order</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                        <h3 className="heading">Dine In or Takeaway</h3>
+                        <p>Stop by for a sit-down cup or grab your order to go — both options available every day.</p>
                       </div>
                     </div>
                   </div>
@@ -199,8 +199,8 @@ export default function Home() {
                         <span className="flaticon-delivery-truck"></span>
                       </div>
                       <div className="media-body">
-                        <h3 className="heading">Fastest Delivery</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                        <h3 className="heading">Meeting Room</h3>
+                        <p>A quiet space next door to the counter, ideal for a small meeting or a study session. Book ahead by phone.</p>
                       </div>
                     </div>
                   </div>
@@ -210,7 +210,7 @@ export default function Home() {
                         <span className="flaticon-coffee-bean"></span></div>
                       <div className="media-body">
                         <h3 className="heading">Quality Coffee</h3>
-                        <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                        <p>Specialty beans roasted in-house at Al Hail, from a smooth cappuccino to our signature Cinnamon Spanish Latte.</p>
                       </div>
                     </div>
                   </div>
@@ -225,7 +225,7 @@ export default function Home() {
                     <div className="heading-section text-md-right ftco-animate">
                       <span className="subheading">Discover</span>
                       <h2 className="mb-4">Our Menu</h2>
-                      <p className="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                      <p className="mb-4">Specialty coffee roasted in-house at Al Hail, from classic espresso drinks to our signature Cinnamon Spanish Latte — most orders run OMR 2–4 per person.</p>
                       <p><a href="#" className="btn btn-primary btn-outline-primary px-4 py-3">View Full Menu</a></p>
                     </div>
                   </div>
@@ -268,8 +268,8 @@ export default function Home() {
                             <div className="block-18 text-center">
                               <div className="text">
                                 <div className="icon"><span className="flaticon-coffee-cup"></span></div>
-                                <strong className="number" data-number="100">0</strong>
-                                <span>Coffee Branches</span>
+                                <strong style={{ color: '#c49b63', fontWeight: 400 }}>4.4</strong>
+                                <span>Google Rating ★</span>
                               </div>
                             </div>
                           </div>
@@ -277,8 +277,8 @@ export default function Home() {
                             <div className="block-18 text-center">
                               <div className="text">
                                 <div className="icon"><span className="flaticon-coffee-cup"></span></div>
-                                <strong className="number" data-number="85">0</strong>
-                                <span>Number of Awards</span>
+                                <strong className="number" data-number="149">0</strong>
+                                <span>Google Reviews</span>
                               </div>
                             </div>
                           </div>
@@ -286,8 +286,8 @@ export default function Home() {
                             <div className="block-18 text-center">
                               <div className="text">
                                 <div className="icon"><span className="flaticon-coffee-cup"></span></div>
-                                <strong className="number" data-number="10567">0</strong>
-                                <span>Happy Customer</span>
+                                <strong className="number" data-number="4800">0</strong>
+                                <span>Instagram Followers</span>
                               </div>
                             </div>
                           </div>
@@ -295,8 +295,8 @@ export default function Home() {
                             <div className="block-18 text-center">
                               <div className="text">
                                 <div className="icon"><span className="flaticon-coffee-cup"></span></div>
-                                <strong className="number" data-number="900">0</strong>
-                                <span>Staff</span>
+                                <strong className="number" data-number="7">0</strong>
+                                <span>Days a Week</span>
                               </div>
                             </div>
                           </div>
@@ -312,7 +312,7 @@ export default function Home() {
                       <div className="col-md-7 heading-section ftco-animate text-center">
                         <span className="subheading">Discover</span>
                         <h2 className="mb-4">Best Coffee Sellers</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p>Menu highlights from our Al Hail roastery, most orders run OMR 2–4 per person.</p>
                       </div>
                     </div>
                     <div className="row">
@@ -320,9 +320,9 @@ export default function Home() {
                         <div className="menu-entry">
                           <a href="#" className="img" style={{ background: 'url(images/menu-1.jpg)' }}></a>
                           <div className="text text-center pt-4">
-                            <h3><a href="#">Coffee Capuccino</a></h3>
-                            <p>A small river named Duden flows by their place and supplies</p>
-                            <p className="price"><span title="OMR" aria-label="OMR"> 5.90</span></p>
+                            <h3><a href="#">Cappuccino</a></h3>
+                            <p>Espresso with steamed milk and a layer of foam</p>
+                            <p className="price"><span title="OMR" aria-label="OMR">⃄ 2.500</span></p>
 
                           </div>
                         </div>
@@ -331,9 +331,9 @@ export default function Home() {
                         <div className="menu-entry">
                           <a href="#" className="img" style={{ background: 'url(images/menu-2.jpg)' }}></a>
                           <div className="text text-center pt-4">
-                            <h3><a href="#">Coffee Capuccino</a></h3>
-                            <p>A small river named Duden flows by their place and supplies</p>
-                            <p className="price"><span title="OMR" aria-label="OMR"> 5.90</span></p>
+                            <h3><a href="#">Cinnamon Spanish Latte</a></h3>
+                            <p>Espresso, milk and condensed milk with a hint of cinnamon</p>
+                            <p className="price"><span title="OMR" aria-label="OMR">⃄ 3.200</span></p>
 
                           </div>
                         </div>
@@ -342,9 +342,9 @@ export default function Home() {
                         <div className="menu-entry">
                           <a href="#" className="img" style={{ background: 'url(images/menu-3.jpg)' }}></a>
                           <div className="text text-center pt-4">
-                            <h3><a href="#">Coffee Capuccino</a></h3>
-                            <p>A small river named Duden flows by their place and supplies</p>
-                            <p className="price"><span title="OMR" aria-label="OMR"> 5.90</span></p>
+                            <h3><a href="#">Iced Tea</a></h3>
+                            <p>Chilled black tea served over ice</p>
+                            <p className="price"><span title="OMR" aria-label="OMR">⃄ 2.200</span></p>
 
                           </div>
                         </div>
@@ -353,10 +353,10 @@ export default function Home() {
                         <div className="menu-entry">
                           <a href="#" className="img" style={{ background: 'url(images/menu-4.jpg)' }}></a>
                           <div className="text text-center pt-4">
-                            <h3><a href="#">Coffee Capuccino</a></h3>
-                            <p>A small river named Duden flows by their place and supplies</p>
-                            <p className="price"><span title="OMR" aria-label="OMR"> 5.90</span></p>
-                            
+                            <h3><a href="#">Hot Chocolate</a></h3>
+                            <p>Rich melted chocolate with steamed milk</p>
+                            <p className="price"><span title="OMR" aria-label="OMR">⃄ 2.800</span></p>
+
                           </div>
                         </div>
                       </div>
@@ -551,8 +551,8 @@ export default function Home() {
                     <div className="row justify-content-center mb-5">
                       <div className="col-md-7 heading-section text-center ftco-animate">
                         <span className="subheading">Testimony</span>
-                        <h2 className="mb-4">Customers Says</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <h2 className="mb-4">What Customers Say</h2>
+                        <p>4.4★ from 149 Google reviews — here's what people are saying about us.</p>
                       </div>
                     </div>
                   </div>
@@ -561,65 +561,50 @@ export default function Home() {
                       <div className="col-lg align-self-sm-end ftco-animate">
                         <div className="testimony">
                           <blockquote>
-                            <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small.&rdquo;</p>
+                            <p>&ldquo;A quiet place, great for meetings and getting work done.&rdquo;</p>
                           </blockquote>
                           <div className="author d-flex mt-4">
-                            <div className="image mr-3 align-self-center">
-                              <img src="images/person_1.jpg" alt=""></img>
-                            </div>
-                            <div className="name align-self-center">Louise Kelly <span className="position">Illustrator Designer</span></div>
+                            <div className="name align-self-center">Google Reviews <span className="position">★★★★★</span></div>
                           </div>
                         </div>
                       </div>
                       <div className="col-lg align-self-sm-end">
                         <div className="testimony overlay">
                           <blockquote>
-                            <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
+                            <p>&ldquo;Specialty beans, roasted right here in Al Hail.&rdquo;</p>
                           </blockquote>
                           <div className="author d-flex mt-4">
-                            <div className="image mr-3 align-self-center">
-                              <img src="images/person_2.jpg" alt=""></img>
-                            </div>
-                            <div className="name align-self-center">Louise Kelly <span className="position">Illustrator Designer</span></div>
+                            <div className="name align-self-center">Google Reviews <span className="position">★★★★☆</span></div>
                           </div>
                         </div>
                       </div>
                       <div className="col-lg align-self-sm-end ftco-animate">
                         <div className="testimony">
                           <blockquote>
-                            <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small  line of blind text by the name. &rdquo;</p>
+                            <p>&ldquo;Try the basque cheesecake with your coffee.&rdquo;</p>
                           </blockquote>
                           <div className="author d-flex mt-4">
-                            <div className="image mr-3 align-self-center">
-                              <img src="images/person_3.jpg" alt=""></img>
-                            </div>
-                            <div className="name align-self-center">Louise Kelly <span className="position">Illustrator Designer</span></div>
+                            <div className="name align-self-center">Google Reviews <span className="position">★★★★★</span></div>
                           </div>
                         </div>
                       </div>
                       <div className="col-lg align-self-sm-end">
                         <div className="testimony overlay">
                           <blockquote>
-                            <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however.&rdquo;</p>
+                            <p>&ldquo;Dine in or grab a quick takeaway — either way, great coffee.&rdquo;</p>
                           </blockquote>
                           <div className="author d-flex mt-4">
-                            <div className="image mr-3 align-self-center">
-                              <img src="images/person_2.jpg" alt=""></img>
-                            </div>
-                            <div className="name align-self-center">Louise Kelly <span className="position">Illustrator Designer</span></div>
+                            <div className="name align-self-center">Google Reviews <span className="position">★★★★☆</span></div>
                           </div>
                         </div>
                       </div>
                       <div className="col-lg align-self-sm-end ftco-animate">
                         <div className="testimony">
                           <blockquote>
-                            <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small  line of blind text by the name. &rdquo;</p>
+                            <p>&ldquo;Rated 4.4★ from 149 happy customers on Google.&rdquo;</p>
                           </blockquote>
                           <div className="author d-flex mt-4">
-                            <div className="image mr-3 align-self-center">
-                              <img src="images/person_3.jpg" alt=""></img>
-                            </div>
-                            <div className="name align-self-center">Louise Kelly <span className="position">Illustrator Designer</span></div>
+                            <div className="name align-self-center"><a href="https://maps.app.goo.gl/Pw3iCo8o9tR5AaVE9" target="_blank" rel="noopener noreferrer">See all reviews</a></div>
                           </div>
                         </div>
                       </div>
@@ -632,7 +617,7 @@ export default function Home() {
                     <div className="row justify-content-center mb-5 pb-3">
                       <div className="col-md-7 heading-section ftco-animate text-center">
                         <h2 className="mb-4">Recent from blog</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <p>Notes from the roastery and the counter at Al Hail.</p>
                       </div>
                     </div>
                     <div className="row d-flex">
@@ -642,12 +627,10 @@ export default function Home() {
                           </a>
                           <div className="text py-4 d-block">
                             <div className="meta">
-                              <div><a href="#">Sept 10, 2018</a></div>
-                              <div><a href="#">Admin</a></div>
-                              <div><a href="#" className="meta-chat"><span className="icon-chat"></span> 3</a></div>
+                              <div><a href="#">Optimum Team</a></div>
                             </div>
-                            <h3 className="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <h3 className="heading mt-2"><a href="#">How We Roast Our Beans</a></h3>
+                            <p>A look inside the in-house roastery behind every cup we serve at Al Hail.</p>
                           </div>
                         </div>
                       </div>
@@ -657,12 +640,10 @@ export default function Home() {
                           </a>
                           <div className="text py-4 d-block">
                             <div className="meta">
-                              <div><a href="#">Sept 10, 2018</a></div>
-                              <div><a href="#">Admin</a></div>
-                              <div><a href="#" className="meta-chat"><span className="icon-chat"></span> 3</a></div>
+                              <div><a href="#">Optimum Team</a></div>
                             </div>
-                            <h3 className="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <h3 className="heading mt-2"><a href="#">Meet Our Menu</a></h3>
+                            <p>From cappuccino to Cinnamon Spanish Latte — a guide to our specialty drinks.</p>
                           </div>
                         </div>
                       </div>
@@ -672,12 +653,10 @@ export default function Home() {
                           </a>
                           <div className="text py-4 d-block">
                             <div className="meta">
-                              <div><a href="#">Sept 10, 2018</a></div>
-                              <div><a href="#">Admin</a></div>
-                              <div><a href="#" className="meta-chat"><span className="icon-chat"></span> 3</a></div>
+                              <div><a href="#">Optimum Team</a></div>
                             </div>
-                            <h3 className="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <h3 className="heading mt-2"><a href="#">Booking the Meeting Room</a></h3>
+                            <p>Planning a small meeting or study session? Here's how to reserve our quiet corner.</p>
                           </div>
                         </div>
                       </div>
@@ -690,8 +669,19 @@ export default function Home() {
                   <div className="overlay"></div>
                   <div className="container-wrap">
                     <div className="row no-gutters d-md-flex align-items-center">
-                      <div className="col-md-6 d-flex align-self-stretch">
-                        <div id="map"></div>
+                      <div className="col-md-6 d-flex align-self-stretch flex-column">
+                        <iframe
+                          title="Optimum Cafe & Roastery location"
+                          src="https://www.google.com/maps?q=Optimum+Cafe+%26+Roastery+(Al+Hail)&ll=23.6298333,58.2321665&z=16&output=embed"
+                          width="100%"
+                          height="100%"
+                          style={{ border: 0, minHeight: '350px' }}
+                          loading="lazy"
+                          referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                        <p className="text-center pt-3">
+                          <a href="https://maps.app.goo.gl/Pw3iCo8o9tR5AaVE9" target="_blank" rel="noopener noreferrer" className="btn btn-primary py-2 px-4">Get Directions</a>
+                        </p>
                       </div>
                       <div className="col-md-6 appointment ftco-animate">
                         <h3 className="mb-3">Book a Table</h3>
@@ -752,8 +742,6 @@ export default function Home() {
                 <script src="/js/bootstrap-datepicker.js"></script>
                 <script src="/js/jquery.timepicker.min.js"></script>
                 <script src="/js/scrollax.min.js"></script>
-                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-                <script src="/js/google-map.js"></script>
                 <script src="/js/main.js"></script>
                 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
