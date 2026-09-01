@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Café Website — Next.js + Strapi
+
+A dynamic café website built with [Next.js](https://nextjs.org/) for the frontend and [Strapi](https://strapi.io/) as the headless CMS for the backend. Strapi lets café owners manage menu items, blog posts, and other content without touching code, while the Next.js frontend consumes that content through Strapi's REST API.
 
 ## Getting Started
 
-First, run the development server:
+This frontend expects a running Strapi instance to fetch content from.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Set the Strapi API URL in `app/config.js` (defaults to `http://127.0.0.1:1337`).
+2. Create a `.env` file in the project root with your Strapi API token:
+
+   ```
+   API_TOKEN=<your-strapi-api-token>
+   ```
+
+3. Install dependencies and run the dev server:
+
+   ```bash
+   npm install
+   npm run dev
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `app/Menu`, `app/Blog`, `app/Contact`, `app/about` — page routes, each fetching content from Strapi
+- `app/components` — shared UI components (Navbar, Footer, cart, contact form, view/click tracking)
+- `app/config.js` — Strapi API base URL
+- `public/images`, `public/js`, `app/css` — static assets and legacy styling/scripts
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Strapi Documentation](https://docs.strapi.io/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The Next.js frontend can be deployed on [Vercel](https://vercel.com/) or any Node host; the Strapi backend needs to be deployed separately (e.g. Strapi Cloud, a VPS, or a container host) with `API_TOKEN` pointed at it.
