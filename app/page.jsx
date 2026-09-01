@@ -322,8 +322,8 @@ export default function Home() {
                           <div className="text text-center pt-4">
                             <h3><a href="#">Coffee Capuccino</a></h3>
                             <p>A small river named Duden flows by their place and supplies</p>
-                            <p className="price"><span>$5.90</span></p>
-                          
+                            <p className="price"><span title="OMR" aria-label="OMR"> 5.90</span></p>
+
                           </div>
                         </div>
                       </div>
@@ -333,8 +333,8 @@ export default function Home() {
                           <div className="text text-center pt-4">
                             <h3><a href="#">Coffee Capuccino</a></h3>
                             <p>A small river named Duden flows by their place and supplies</p>
-                            <p className="price"><span>$5.90</span></p>
-                           
+                            <p className="price"><span title="OMR" aria-label="OMR"> 5.90</span></p>
+
                           </div>
                         </div>
                       </div>
@@ -344,8 +344,8 @@ export default function Home() {
                           <div className="text text-center pt-4">
                             <h3><a href="#">Coffee Capuccino</a></h3>
                             <p>A small river named Duden flows by their place and supplies</p>
-                            <p className="price"><span>$5.90</span></p>
-                          
+                            <p className="price"><span title="OMR" aria-label="OMR"> 5.90</span></p>
+
                           </div>
                         </div>
                       </div>
@@ -355,7 +355,7 @@ export default function Home() {
                           <div className="text text-center pt-4">
                             <h3><a href="#">Coffee Capuccino</a></h3>
                             <p>A small river named Duden flows by their place and supplies</p>
-                            <p className="price"><span>$5.90</span></p>
+                            <p className="price"><span title="OMR" aria-label="OMR"> 5.90</span></p>
                             
                           </div>
                         </div>
@@ -432,7 +432,7 @@ export default function Home() {
                                       <div className="text">
                                         <h3><a href="#">Grilled Beef</a></h3>
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                        <p className="price"><span>$2.90</span></p>
+                                        <p className="price"><span title="OMR" aria-label="OMR">⃄ 2.90</span></p>
                                         <p><a href="#" className="btn btn-primary btn-outline-primary">Add to cart</a></p>
                                       </div>
                                     </div>
@@ -443,7 +443,7 @@ export default function Home() {
                                       <div className="text">
                                         <h3><a href="#">Grilled Beef</a></h3>
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                        <p className="price"><span>$2.90</span></p>
+                                        <p className="price"><span title="OMR" aria-label="OMR">⃄ 2.90</span></p>
                                         <p><a href="#" className="btn btn-primary btn-outline-primary">Add to cart</a></p>
                                       </div>
                                     </div>
@@ -454,7 +454,7 @@ export default function Home() {
                                       <div className="text">
                                         <h3><a href="#">Grilled Beef</a></h3>
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                        <p className="price"><span>$2.90</span></p>
+                                        <p className="price"><span title="OMR" aria-label="OMR">⃄ 2.90</span></p>
                                         <p><a href="#" className="btn btn-primary btn-outline-primary">Add to cart</a></p>
                                       </div>
                                     </div>
@@ -470,7 +470,7 @@ export default function Home() {
                                       <div className="text">
                                         <h3><a href="#">Lemonade Juice</a></h3>
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                        <p className="price"><span>$2.90</span></p>
+                                        <p className="price"><span title="OMR" aria-label="OMR">⃄ 2.90</span></p>
                                         <p><a href="#" className="btn btn-primary btn-outline-primary">Add to cart</a></p>
                                       </div>
                                     </div>
@@ -481,7 +481,7 @@ export default function Home() {
                                       <div className="text">
                                         <h3><a href="#">Pineapple Juice</a></h3>
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                        <p className="price"><span>$2.90</span></p>
+                                        <p className="price"><span title="OMR" aria-label="OMR">⃄ 2.90</span></p>
                                         <p><a href="#" className="btn btn-primary btn-outline-primary">Add to cart</a></p>
                                       </div>
                                     </div>
@@ -492,7 +492,7 @@ export default function Home() {
                                       <div className="text">
                                         <h3><a href="#">Soda Drinks</a></h3>
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                        <p className="price"><span>$2.90</span></p>
+                                        <p className="price"><span title="OMR" aria-label="OMR">⃄ 2.90</span></p>
                                         <p><a href="#" className="btn btn-primary btn-outline-primary">Add to cart</a></p>
                                       </div>
                                     </div>
@@ -508,7 +508,7 @@ export default function Home() {
                                       <div className="text">
                                         <h3><a href="#">Hot Cake Honey</a></h3>
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                        <p className="price"><span>$2.90</span></p>
+                                        <p className="price"><span title="OMR" aria-label="OMR">⃄ 2.90</span></p>
                                         <p><a href="#" className="btn btn-primary btn-outline-primary">Add to cart</a></p>
                                       </div>
                                     </div>
@@ -519,7 +519,7 @@ export default function Home() {
                                       <div className="text">
                                         <h3><a href="#">Hot Cake Honey</a></h3>
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                        <p className="price"><span>$2.90</span></p>
+                                        <p className="price"><span title="OMR" aria-label="OMR">⃄ 2.90</span></p>
                                         <p><a href="#" className="btn btn-primary btn-outline-primary">Add to cart</a></p>
                                       </div>
                                     </div>
@@ -530,7 +530,7 @@ export default function Home() {
                                       <div className="text">
                                         <h3><a href="#">Hot Cake Honey</a></h3>
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                        <p className="price"><span>$2.90</span></p>
+                                        <p className="price"><span title="OMR" aria-label="OMR">⃄ 2.90</span></p>
                                         <p><a href="#" className="btn btn-primary btn-outline-primary">Add to cart</a></p>
                                       </div>
                                     </div>
