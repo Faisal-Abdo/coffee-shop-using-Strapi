@@ -174,16 +174,16 @@ console.log('messages', contactmessage); */}
 	              <h2 class="h4">Contact Information</h2>
 	            </div>
 	            <div class="col-md-12 mb-3">
-	              <p><span>Address:</span> Muscat, Hail South</p>
+	              <p><span>Address:</span> <a href="https://maps.app.goo.gl/Pw3iCo8o9tR5AaVE9" target="_blank" rel="noopener noreferrer">November Square, Al Hail, Seeb</a></p>
 	            </div>
 	            <div class="col-md-12 mb-3">
-	              <p><span>Phone:</span> <a href="tel://1234567920">24 83234</a></p>
+	              <p><span>Phone:</span> <a href="tel:+96879292707">+968 7929 2707</a></p>
 	            </div>
 	            <div class="col-md-12 mb-3">
-	              <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+	              <p><span>Instagram:</span> <a href="https://www.instagram.com/optimumcafe.om/" target="_blank" rel="noopener noreferrer">@optimumcafe.om</a></p>
 	            </div>
 	            <div class="col-md-12 mb-3">
-	              <p><span>Website:</span> <a href="#">yoursite.com</a></p>
+	              <p><span>Menu:</span> <a href="https://menu.fascano.com/selectLanguage/optimumcafe" target="_blank" rel="noopener noreferrer">View Digital Menu</a></p>
 	            </div>
 						</div>
 					</div>
