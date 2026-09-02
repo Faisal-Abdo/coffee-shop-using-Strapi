@@ -1,8 +1,10 @@
 import styles from './css/style.css';
 
-const Layout = ({children, navbar}) => (
+const Layout = ({children}) => (
+  <html lang="en">
+    <body data-aos-easing="slide" data-aos-duration="800" data-aos-delay="0">
     <main className={styles.layout}>
-     
+
       <section className={styles.container}>
         {children}
       </section>
@@ -31,6 +33,8 @@ const Layout = ({children, navbar}) => (
     <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/icomoon.css" />
     </main>
+    </body>
+  </html>
 );
 
 export default Layout;

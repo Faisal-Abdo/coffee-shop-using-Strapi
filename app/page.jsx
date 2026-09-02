@@ -25,7 +25,7 @@ export default function Home() {
     
     <div className="overlay"></div>
    
-    <video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
+    <video playsInline autoPlay muted loop>
         <source src="\images\IMG_6738.MP4"  type="video/mp4"/>
     </video>
   
@@ -103,7 +103,7 @@ export default function Home() {
                         <div className="icon"><span className="icon-phone"></span></div>
                         <div className="text">
                         <h3><a href="tel:+96879292707">+968 7929 2707</a></h3>
-										<p>Call to ask about today's roast or to book the meeting room.</p>
+										<p>Call to ask about today&apos;s roast or to book the meeting room.</p>
                         </div>
                       </div>
                       <div className="col-md-4 d-flex ftco-animate">
@@ -150,7 +150,7 @@ export default function Home() {
                           <input type="text" className="form-control" placeholder="Phone"></input>
                         </div>
                       </div>
-                      <div classNameName="d-md-flex">
+                      <div className="d-md-flex">
                         <div className="form-group">
                           <textarea name="" id="" cols="30" rows="2" className="form-control" placeholder="Message"></textarea>
                         </div>
@@ -173,7 +173,7 @@ export default function Home() {
                     <h2 className="mb-4">Our Story</h2>
                   </div>
                   <div>
-                    <p>Optimum Cafe &amp; Roastery is a specialty coffee house and in-house roastery tucked into November Square in Al Hail, Seeb. Rated 4.4★ from 149 Google reviews, it's known for a quiet, tidy space with its own meeting room — a favourite for both a quick espresso and a longer sit-down. Dine in or grab a takeaway, seven days a week.</p>
+                    <p>Optimum Cafe &amp; Roastery is a specialty coffee house and in-house roastery tucked into November Square in Al Hail, Seeb. Rated 4.4★ from 149 Google reviews, it&apos;s known for a quiet, tidy space with its own meeting room — a favourite for both a quick espresso and a longer sit-down. Dine in or grab a takeaway, seven days a week.</p>
                   </div>
                 </div>
               </div>
@@ -552,7 +552,7 @@ export default function Home() {
                       <div className="col-md-7 heading-section text-center ftco-animate">
                         <span className="subheading">Testimony</span>
                         <h2 className="mb-4">What Customers Say</h2>
-                        <p>4.4★ from 149 Google reviews — here's what people are saying about us.</p>
+                        <p>4.4★ from 149 Google reviews — here&apos;s what people are saying about us.</p>
                       </div>
                     </div>
                   </div>
@@ -656,7 +656,7 @@ export default function Home() {
                               <div><a href="#">Optimum Team</a></div>
                             </div>
                             <h3 className="heading mt-2"><a href="#">Booking the Meeting Room</a></h3>
-                            <p>Planning a small meeting or study session? Here's how to reserve our quiet corner.</p>
+                            <p>Planning a small meeting or study session? Here&apos;s how to reserve our quiet corner.</p>
                           </div>
                         </div>
                       </div>

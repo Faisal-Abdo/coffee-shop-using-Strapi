@@ -140,7 +140,7 @@ console.log('messages', contactmessage); */}
    <Wraps>
   <Navbar/> 
 
-    <section class="home-slider owl-carousel">
+    <section class="home-slider owl-carousel" suppressHydrationWarning>
 
       <div class="slider-item" style={{background: 'url("images/bg_3.jpg")',  backgroundSize: 'cover',
     backgroundPosition: 'center center',

@@ -8391,8 +8391,8 @@ textarea.form-control {
         border: 2px solid #000; }
 
 .ftco-animate {
-  opacity: 0;
-  visibility: hidden; }
+  opacity: 1;
+  visibility: visible; }
 
 .bg-primary {
   background: #c49b63 !important; }
