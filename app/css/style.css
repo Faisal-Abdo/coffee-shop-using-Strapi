@@ -8394,6 +8394,15 @@ textarea.form-control {
   opacity: 1;
   visibility: visible; }
 
+/* .home-slider only ever renders a single slide, so it doesn't need Owl
+   Carousel's loop/autoplay JS to be visible. Owl Carousel hides it
+   (.owl-carousel{display:none}) until its JS adds "owl-loaded", and can also
+   re-hide it later via "owl-hidden" (its own visibility poll misfires under
+   React hydration timing). Force it visible regardless of that JS state. */
+.home-slider.owl-carousel {
+  display: block !important;
+  opacity: 1 !important; }
+
 .bg-primary {
   background: #c49b63 !important; }
 

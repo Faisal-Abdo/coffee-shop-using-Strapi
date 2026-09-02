@@ -54,6 +54,7 @@
 	    animateIn: 'fadeIn',
 	    nav:false,
 	    autoplayHoverPause: false,
+	    autoRefresh: false,
 	    items: 1,
 	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
 	    responsive:{
@@ -75,6 +76,7 @@
 			autoplay: true,
 			center: true,
 			loop: true,
+			autoRefresh: false,
 			items:1,
 			margin: 30,
 			stagePadding:0,
@@ -97,7 +99,17 @@
 		});
 
 	};
-	carousel();
+	// Deferred to window 'load' so this runs after React finishes hydrating the
+	// server-rendered markup. Owl Carousel rewrites the slider's DOM structure
+	// (wrapping slides in .owl-stage/.owl-item), and if that happens before
+	// hydration completes, React treats it as a mismatch and regenerates the
+	// tree from the original server HTML, wiping the "owl-loaded" class that
+	// makes the slider visible (it's display:none until that class is added).
+	if (document.readyState === 'complete') {
+		carousel();
+	} else {
+		$(window).on('load', carousel);
+	}
 
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
